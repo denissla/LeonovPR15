@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LeonovPR15.MainPage"
+             Title="">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Заголовок" Margin="30" TextColor="Blue" FontSize="Large" x:Name="title"/>
+            <Label x:Name="lable1" BackgroundColor="CornflowerBlue" HorizontalTextAlignment="Center" TextColor="White" FontSize="Large" VerticalTextAlignment="Center"></Label>
+            <Button x:Name="button1" Clicked="Button1_Clicked" BackgroundColor="CornflowerBlue" BorderWidth="3" TextColor="White" FontSize="Medium" BorderColor="Blue" Text="Старт" Margin="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
